@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="top"
+        tools:context=".QuizCategory">
+
+        <TextView
+            android:id="@+id/tv_category_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/category"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#2F2B2A"
+            android:padding="6dp"
+            android:layout_marginBottom="15dp"/>
+
+        <GridView
+            android:id="@+id/gv_categories"
+            android:layout_width="match_parent"
+            android:layout_height="650dp"
+            android:horizontalSpacing="6dp"
+            android:numColumns="2"
+            android:verticalSpacing="6dp"/>
+
+        <TextView
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_gravity="right"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/tv_logout"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+</ScrollView>
