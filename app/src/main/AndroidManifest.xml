@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.quizapp">
 
+    <user-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,9 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp"
         tools:targetApi="31">
-        <activity
-            android:name=".QuizCategoryStudent"
-            android:exported="false" />
+
         <activity
             android:name=".Results"
             android:exported="false" />
@@ -25,9 +25,7 @@
         <activity
             android:name=".CreateNewCategory"
             android:exported="false" />
-        <activity
-            android:name=".MakeChangesInActivity"
-            android:exported="false" />
+
         <activity
             android:name=".CreateQuestions"
             android:exported="false" />

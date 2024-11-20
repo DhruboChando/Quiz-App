@@ -70,4 +70,6 @@
     <string name="enter_number_or_mail_id">Enter number or mail id</string>
     <string name="total_correct_answers_0">Total Correct Answers: 0</string>
     <string name="continue_to_app">Continue to app</string>
+    <string name="enter_email">Enter email</string>
+    <string name="default_web_client_id" >567498252937-u59kkr7uu614gp2u0un5d6mg9fc7dpdq.apps.googleusercontent.com</string>
 </resources>
